@@ -1,0 +1,5 @@
+<ul>
+    ${arrayOfData.map(restaurant => 
+        `<li><a href="./restaurant/${restaurant.id}">${restaurant.name}: ${restaurant.address}</a></li>`
+    ).join('')}
+</ul>
